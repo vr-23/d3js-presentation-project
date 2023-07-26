@@ -48,7 +48,7 @@ function drawPie(data, currentYear) {
 
     var colorScale = d3.scaleOrdinal()
                        .domain(continents)
-                       .range(["#4E6E81", "#7e57c2", "#26a69a", "#42a5f5", "#78909c"]);
+                       .range(["#FF0000", "#0000FF", "#00FF00", "#FFA500", "#FFFF00"]);
 
     var update = pie
                     .select(".chart")
